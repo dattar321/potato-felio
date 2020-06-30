@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+h1{  
+    font-size: 50px;
+}p{
+    color:dimgray;
+}
+section{
+    height: 500px;
+}
+ul{
+    color: dimgray;
+}
+.first-section{
+    /*border: 1px solid olivedrab;*/
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.second-section{
+    /*border: 1px solid olivedrab;*/
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.third-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 3%;
+    margin-left: 2%;
+
+}
+.table{
+    /*border: .5px solid grey;*/
+    background-color: rgb(247, 247, 247);
+    border-radius: 5%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 30px rgb(190, 190, 190);
+    height: 80%;
+}
+.half-width img{
+    padding-top: 7%;
+    width: 100%;
+}
+.potato-highlight{
+    font-size: 57px;
+    color:orchid;
+}
+
+.link-button{
+    background-color: rgb(255,169,45);
+    color:black;
+    height: 27px;
+    width:90px;
+    font-weight: 700;
+    border-radius: 13%;
+    box-shadow: papayawhip;
+    border-color: white;
+}
+#roasted-potato{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#mash-potato{
+    border-left:7px solid;
+    border-image: linear-gradient(lightSalmon,rgb(255, 185, 172));
+    border-image-slice: 1;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 13px;
+}
